@@ -1,0 +1,965 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.bgimage{
+    width: 1440px;
+    height: 927px;
+    background-image: url(unsplash_ELf8M_YWRTY.jpg);
+    opacity: 90%;
+}
+
+.BonVoyage{
+    display: flex;
+    position: absolute;
+    top: 48px;
+    left: 55px;
+    width: 314px;
+    height: 45px;
+    font-family: 'Peralta';
+    align-items: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+    line-height: 52px;
+}
+
+.Destinations,.Hotels,.Flights,.Bookings{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 45px;
+    left: 374px;
+    width: 164px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.Hotels{
+    width:90px;
+    height:50px;
+    top: 45px;
+    left: 587px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.Flights{
+    width: 95px;
+    height: 50px;
+    top: 45px;
+    left: 746px;
+    padding: 8px;
+    gap: 8px;
+}
+.Bookings{
+    width: 124px;
+    height: 50px;
+    top: 45px;
+    left: 907px;
+    padding: 8px;
+    gap: 8px;
+}
+
+.Login{
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 20px;
+    gap: 8px;
+
+    position: absolute;
+    width: 107px;
+    height: 40px;
+    left: 1107px;
+    top: 50px;
+    background: #EC682C;
+    border: 1px solid #EC682C;
+    border-radius: 8px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.6121px;
+    line-height: 34px;
+   
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.Signup{
+    box-sizing: border-box;
+    position: absolute;
+    width: 107px;
+    height: 40px;
+    left: 1250px;
+    top: 50px;
+    background-color: #EC682C;
+
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22.6121px;
+    line-height: 34px;
+    border: 1px solid #EC682C;
+    border-radius: 8px;
+   
+    align-items: center;
+
+    color: #FFFFFF;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    position: absolute;
+    left: 41px;
+    top: 387px;
+    width: 1108px;
+    height: 89px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 118px;
+    letter-spacing: -0.04em;
+    color: #4B40C5;
+}
+h2{
+    position: absolute;
+    left: 50px;
+    top: 476px;
+    width: 757px;
+    height: 47px;
+
+    font-family: Poppins;
+    font-size: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.FindOutMore{
+    position: absolute;
+    top:549px;
+    left:50px;
+    width: 228.01px;
+    height: 75.88px;
+    border-radius: 13.3012px;
+    box-shadow: 0px 26.6024px 46.5543px rgba(241, 165, 1, 0.15);
+    background: rgba(75, 64, 197, 1);
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23.94px;
+    line-height: 36px;
+    
+    align-items: center;
+    text-align: center;
+    color: #FFF1DA;
+}
+
+.CATEGORY{
+    position: absolute;
+    left:579px;
+    top: 1004px;
+    width: 270px;
+    height: 34px;
+
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    color: rgba(75, 64, 197, 1);
+}
+.WeOfferBestServices{
+    position: absolute;
+    left:308px;
+    top: 1078px;
+    width: 898px;
+    height: 81px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: black;
+}
+
+.staliteimage{
+    display: flex;
+    position: absolute;
+    width: 107.9px;
+    height: 97.76px;
+    left: 152.16px;
+    top: 1293.78px;
+}
+.CalculatedWeather{
+    position: absolute;
+    width: 253px;
+    height:34px;
+    left: -70px;
+    top: 100px;
+    padding-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.text1{
+    position: absolute;
+    width: 226px;
+    height:145px;
+    left: -60px;
+    top: 160px; 
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.FlightsBox{
+    position: absolute;
+    width: 313.15px;
+    height: 393.54px;
+    left: 398.46px;
+    top: 1220.15px;
+    background: #FFFFFF;
+    box-shadow: 0px 133.012px 106.41px rgba(0, 0, 0, 0.02), 0px 86.2116px 62.3187px rgba(0, 0, 0, 0.0151852), 0px 51.2343px 33.8935px rgba(0, 0, 0, 0.0121481), 0px 26.6024px 17.2916px rgba(0, 0, 0, 0.01), 0px 10.838px 8.67042px rgba(0, 0, 0, 0.00785185), 0px 2.46319px 4.18742px rgba(0, 0, 0, 0.00481481);
+    border-radius: 47.8844px;
+
+}
+.Recplane{
+    position: absolute;
+    width: 58.64240264892603px;
+    height: 61.41297912597677px;
+    top: 100px;
+    left: 120.9967041015625px;
+    border-radius:24px, 7px, 13px, 7px;
+}
+.plane{
+    position: absolute;
+    width: 150px;
+    height: 400px;
+    top: -60px;
+    left: 80.9967041015625px;
+    border-radius: 23.942188262939453px 6.650607585906982px 13.301215171813965px 6.650607585906982px;
+    align-items: center;
+}
+
+.BestFlights{
+    position: absolute;
+    width: 253px;
+    height:34px;
+    left: 90px;
+    top: 180px;
+    padding-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+}
+
+.Gettingcheapbestflights{
+    position: absolute;
+    width: 212px;
+    height:136px;
+    left: 50px;
+    top: 220px;
+    padding-top: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.Recplane1{
+    position: absolute;
+    width: 117.64240264892603px;
+    height: 125.41297912597677px;
+    top: 250px;
+    left: 200px;
+    border-radius:40px, 0px, 13px, 0px;
+}
+
+.micbox{
+    position: absolute;
+    width: 313.15px;
+    height: 393.54px;
+    left: 793.05px;
+    top: 1232px;
+    background: #FFFFFF;
+    box-shadow: 0px 133.012px 106.41px rgba(0, 0, 0, 0.02), 0px 86.2116px 62.3187px rgba(0, 0, 0, 0.0151852), 0px 51.2343px 33.8935px rgba(0, 0, 0, 0.0121481), 0px 26.6024px 17.2916px rgba(0, 0, 0, 0.01), 0px 10.838px 8.67042px rgba(0, 0, 0, 0.00785185), 0px 2.46319px 4.18742px rgba(0, 0, 0, 0.00481481);
+    border-radius: 47.8844px;
+}
+
+.BlueRectangle{
+    position: absolute;
+    width: 117.28px;
+    height: 125.33px;
+    left: 1020px;
+    top: 1198px;
+    background: #4B40C5;
+    border-radius: 39.9036px 0px 13.3012px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.Micpic{
+    position: absolute;
+    width: 75px;
+    height: 103px;
+    top: 90px;
+    left: 120.9967041015625px;
+    border-radius: 23.942188262939453px 6.650607585906982px 13.301215171813965px 6.650607585906982px;
+    align-items: center;
+}
+.LocalEvents{
+    position: absolute;
+    top: 190px;
+    left: 80px;
+    font-size: 25px;
+    font-family: poppins;
+    font-weight: 500;
+}
+.eventsText{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+
+    position: absolute;
+    width: 212.29px;
+    height: 97.76px;
+    top: 220px;
+    left: 50px;
+}               
+.toolpic{
+    position: absolute;
+    width: 84.64230346679688px;
+    height: 86px;
+    top: 90px;
+    left: 500.9967041015625px;
+    border-radius: 23.942188262939453px 6.650607585906982px 13.301215171813965px 6.650607585906982px;                   
+}
+.Customization{
+    position: absolute;
+    width: 84.64230346679688px;
+    height: 86px;
+    top: 190px;
+    left: 450.9967041015625px;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.CustomizationText{
+    position: absolute;
+    width: 212.29px;
+    height: 97.76px;
+    top: 220px;
+    left: 430.9967041015625px;
+
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.TopSelling{
+    position: absolute;
+    width: 179px;
+    height: 48px;
+    left: 599px;
+    top: 1789px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #4B40C5;
+}
+
+.TopDestinations{
+    position: absolute;
+    width: 536px;
+    height: 93px;
+    left: 440px;
+    top: 1877px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 93px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #14183E;
+}
+
+.DestinationContent{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 650px;
+    position: absolute;
+    top: 2000px;
+    justify-content: space-between;  
+}
+.col-content2{
+    position: absolute;
+    left: 400%;
+    
+}
+.col-content3{
+    position: absolute;
+    left: 880%;
+}
+.pricecard1{
+    position: absolute;
+    top:2440px;
+    left:20px
+}
+.pricecard2{
+    position: absolute;
+    top:2440px;
+    left:506px
+}
+.pricecard3{
+    position: absolute;
+    top:2440px;
+    left: 986px;
+}
+.Book{
+    width: 1338px;
+    margin: 50px auto;
+    padding: 40px;
+    position: absolute;
+    top:2650px;
+}
+.text2{
+    font-size: 20px;
+    font-family: Poppins;
+}
+.text3{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    font-family: Poppins;
+    font-size: 70px;    
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 310px;
+    left: 20px;
+}
+.logo > div{
+    margin: 10px;
+}
+.logo > div > span{
+   position: relative;
+   left:15px;
+   bottom: 40px;
+   font-size: 22px;
+   font-family: poppins; 
+}
+.paragraph{
+    position: relative;
+   left:80px;
+   bottom: 40px;
+   font-family: poppins;
+   line-height: 22.41px;
+ }
+ .box{
+    position: relative;
+    left: 800px;
+    top: 80px;
+    width:443px;
+    height:479px;
+    border-radius: 50px;
+    box-shadow: 120px -100px 200px 10px rgba(75, 64, 197, 1);
+    opacity: 40%;
+ }
+.image1{
+    position: relative;
+    left: 810px;
+    top: -390px;
+    padding: 20px;
+    border-radius: 10px;
+ }
+ .BoxText1 {
+    position: relative;
+    left:20px;
+    top:250px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: poppins;
+    line-height: 22.5px;
+ }
+ .BoxText2{
+    position: relative;
+    left:55px;
+    top:220px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: poppins;
+ }
+.icons{
+    display: flex;
+    position: absolute;
+    top: 320px;
+    left:20px;
+}
+.icons1{
+    position: absolute;
+    top: 25px;
+    left:24px;
+}
+.icons2{
+    position: absolute;
+    top: 25px;
+    left:88px;
+}
+.icons3{
+    position: absolute;
+    top: 25px;
+    left:150px;
+}
+.circle{
+    padding: 10px;
+}
+.icons4{
+    position: absolute;
+    top: 70px;
+    left:10px;
+}
+.icons4text{
+    width: 100px;
+    position: absolute;
+    top: -5px;
+    left:30px;
+    font-family: poppins;
+    size: 34px;
+}
+.box2{
+    position: absolute;
+    top: -25px;
+    left: 250px;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 50px 1px rgb(177, 173, 173);
+}
+.heart{
+    position: absolute;
+    top: 130px;
+    left: 350px;
+    size: 200px;
+}
+.Box2pic{
+    position: absolute;
+    top: 460px;
+    left: 1120px;
+}
+.box2text1{
+    font-size: 18px;
+    font-family: poppins;
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+.box2text2{
+    font-size: 23px;
+    font-family: poppins;
+    position: absolute;
+    top: 40px;
+    left: 80px;
+}
+.box2text3{
+    font-size: 18px;
+    font-family: poppins;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    color: #4B40C5;
+}
+.box2text4{
+    font-size: 18px;
+    font-family: poppins;
+    position: absolute;
+    top: 80px;
+    left: 120px;
+}
+progress{
+    accent-color:  rgb(5, 5, 238);
+    position: absolute;
+    top: 110px;
+    left: 80px;  
+}
+.text4{
+    position: absolute;
+    top: 3450px;
+    left: 500px;
+    font-size: 40px;
+    background: linear-gradient(to right, #7F2736 1%, #000000 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.text5{
+    position: absolute;
+    top: 3550px;
+    left: 230px;
+    width: 800px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+    size: 24px;
+    font-family: poppins;
+    line-height: 30.2px;
+}
+.box3 {
+    display: flex;
+    flex-direction: row;
+    width: 430px;
+    height: 500px;
+    position: absolute;
+    top: 3550px;
+    left: 230px;
+    align-items: center;
+   
+}
+.inbox1{
+    position: absolute;
+    width: 350px;
+    height: 305px;
+    left: -100px;
+    top: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+}
+.inbox2{
+    position: absolute;
+    width: 350px;
+    height: 305px;
+    left: 300px;
+    top: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+}
+.inbox3{
+    position: absolute;
+    width: 350px;
+    height: 305px;
+    left: 700px;
+    top: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(38, 45, 118, 0.08);
+    border-radius: 20px;
+}
+.img{
+    position: relative;
+    left: 90px;
+    top:-60px
+}
+.material-symbols-outlined{
+    position: relative;
+    left: -15px;
+    top:-150px;
+    color: #FFFFFF;
+}
+.heading{
+    display: flex;
+    font-size: 25px;
+    position: relative;
+    font-family: poppins;
+    left: 60px;
+    top:-80px;  
+}
+.para{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 170px;
+    line-height: 30px;
+}
+.box4{
+    background: #DFD7F9;
+    opacity: 0.2;
+    border-radius: 26.6024px 171.586px 26.6024px 26.6024px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 1200.49px;
+    height: 484.79px;
+    position: absolute;
+    top: 650px;
+    left: -150px;
+}
+.blue{
+    position: absolute;
+    top: -2%;
+    left: -10px;
+}
+.send2{
+    transform: rotate(250deg);
+    position: absolute;
+    top: 1%;
+    left: 2px;
+}
+.para1{
+    position: absolute;
+    width: 991px;
+    height: 161px;
+    top: 150%;
+    left: -50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5E6282;
+    
+}
+#email{
+    position: absolute;
+    width: 485.9466552734375px;
+    height: 78.49019622802734px;
+    top: 200%;
+    left: 150px;
+    border: 0px solid rgba(57, 66, 93, 1);
+    border-radius: 20px;
+}
+input::placeholder {
+    font: 1.25rem/3 sans-serif;
+}
+button{
+    position: absolute;
+    width: 207.76817321777344px;
+    height: 78.49019622802734px;
+    top: 200%;
+    left: 650px;
+    border-radius: 13.301215171813965px;
+    color: #FFFFFF;
+    border: none;
+}
+button:hover{
+    background-color: #EC682C;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24);
+}
+
+.lastbox1{
+    width: 1400.2427978515625px;
+    height: 338.2391357421875px;
+    position: absolute;
+    top: 250%;
+    left: -200px;
+}
+.para2{
+    width: 286px;
+    height: 66px;
+    position: absolute;
+    top: 50%;
+    left: -1px;
+    font-size: 18px;
+    font-family: poppins;
+    line-height: 22px;
+}
+.Companycontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 260%;
+    left: 90px;
+    width: 164.00010681152344px;
+    height: 201.58583068847656px
+}
+.Company h4{
+    font-size: 32px;
+    font-family: poppins;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    position: absolute;
+    top:10px;
+    left: 1px;
+}
+.Company ol{
+    position: relative;
+    top:50px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; 
+}
+.Contactcontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 260%;
+    left: 390px;
+    width: 164.00010681152344px;
+    height: 201.58583068847656px
+}
+.Contact h4{
+    font-size: 32px;
+    font-family: poppins;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    position: absolute;
+    top:10px;
+    left: 1px;
+}
+.Contact ol{
+    position: relative;
+    top:50px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; 
+}
+.Morecontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 260%;
+    left: 650px;
+    width: 164.00010681152344px;
+    height: 201.58583068847656px
+}
+.More h4{
+    font-size: 32px;
+    font-family: poppins;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    position: absolute;
+    top:10px;
+    left: 1px;
+}
+.More ol{
+    position: relative;
+    top:50px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px; 
+}
+ol:hover{
+    color: #4B40C5;
+}
+
+.smallbox{
+    width: 235.43150329589844px;
+    height: 59.85547637939453px;
+    position: absolute;
+    top:1310px;
+    left: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 30px;
+}
+.smallbox div{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    box-shadow: 0px 2.660242795944214px 13.301215171813965px 0px rgba(250, 1, 1, 0.1);
+}
+.Iicon{
+    background: conic-gradient(from 180deg at 50% 50%, #B8D2F1 0deg, #F289AA 60deg, #C68BF0 106.09deg, #D164DA 153.75deg, #C963E8 221.25deg, #BFC2E8 258.75deg, #FFC999 288.75deg, #D0D8C9 315deg, #BAD0F1 334.13deg, #CED8CB 358.97deg, rgba(255, 255, 255, 0) 360deg);
+}
+.para3{
+    width: 235.43150329589844px;
+    height: 59.85547637939453px;
+    position: absolute;
+    top:1440px;
+    left:830px;
+    font-size: 26px;
+}
+.Play{
+    display: flex;
+    position: absolute;
+    top:1480px;
+    left:830px;
+    font-size: 26px;
+    flex-direction: row;
+}
+
+.lastword{
+    position: relative;
+    top:1480px;
+    left: 420px;
+    font-size: 18px;
+    font-family: poppins;
+}
